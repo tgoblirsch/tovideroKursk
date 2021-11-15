@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="14" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="14" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -9632,8 +9632,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="17.5" y1="64" x2="42" y2="64" width="0.127" layer="21"/>
 <wire x1="42" y1="64" x2="42" y2="0" width="0.127" layer="21"/>
 <wire x1="42" y1="0" x2="11" y2="0" width="0.127" layer="21"/>
-<hole x="2.5" y="12" drill="2.7"/>
-<hole x="39.5" y="12" drill="2.7"/>
+<hole x="2.5" y="12" drill="3.5"/>
+<hole x="39.5" y="12" drill="3.5"/>
 <text x="1" y="60" size="2.54" layer="25">QMINI</text>
 <wire x1="11" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
 <wire x1="2" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
@@ -10461,6 +10461,133 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJW"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="2">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/2" prefix="SJ" uservalue="yes" library_version="2">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="33" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="W" package="SJW">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10472,46 +10599,109 @@ Based on the following sources:
 </classes>
 <parts>
 <part name="RPI1" library="microbuilder" deviceset="RASPBERRYPI_BPLUS" device="_HATNOSLOTS">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P7" library="con-hirose-df13" deviceset="DF13-4P-1.25" device="DSA">
-<attribute name="DIGIKEY" value="H2193-ND"/>
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DIGIKEY#" value="H2193-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427588"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P6" library="con-hirose-df13" deviceset="DF13-4P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2193-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427588"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="U$1" library="Peripherie" deviceset="QMINI" device="">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="U2" library="dcdc" deviceset="TMR6-0512" device="">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="1951-2391-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="TRACOPOWER"/>
 <attribute name="MPN" value="TMR 6-0512"/>
 <attribute name="OC_FARNELL" value="2280181"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="AQY*" device="SOP" package3d_urn="urn:adsk.eagle:package:24376/1" technology="22" value="G3VM-61VR">
+<attribute name="CLASS" value="RELAY"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="OMRON"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)"/>
 <attribute name="OC_FARNELL" value="2889501"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="AQY*" device="SOP" package3d_urn="urn:adsk.eagle:package:24376/1" technology="22" value="G3VM-61VR">
+<attribute name="CLASS" value="RELAY"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="OMRON"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)"/>
 <attribute name="OC_FARNELL" value="2889501"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
 <spice>
@@ -10520,10 +10710,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="P270CCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="PANASONIC"/>
 <attribute name="MPN" value="ERA6AEB271V"/>
 <attribute name="OC_FARNELL" value="1577650"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
 <spice>
@@ -10532,16 +10731,34 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="P270CCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="PANASONIC"/>
 <attribute name="MPN" value="ERA6AEB271V"/>
 <attribute name="OC_FARNELL" value="1577650"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="AQY*" device="SOP" package3d_urn="urn:adsk.eagle:package:24376/1" technology="22" value="G3VM-61VR">
+<attribute name="CLASS" value="RELAY"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="OMRON"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)"/>
 <attribute name="OC_FARNELL" value="2889501"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
 <spice>
@@ -10550,22 +10767,49 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="P270CCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="PANASONIC"/>
 <attribute name="MPN" value="ERA6AEB271V"/>
 <attribute name="OC_FARNELL" value="1577650"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P5" library="con-hirose-df13" deviceset="DF13-7P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2196-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13A-7P-1.25H(21)"/>
 <attribute name="OC_FARNELL" value="3019730"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="U3" library="LP55231" deviceset="LP55231" device="WQFN">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="296-40354-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 <attribute name="MPN" value="LP55231SQE/NOPB"/>
 <attribute name="OC_FARNELL" value="3006014"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10579,10 +10823,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
 <spice>
@@ -10591,10 +10844,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150k">
 <spice>
@@ -10603,16 +10865,34 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="P150KCCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="MULTICOMP PRO"/>
 <attribute name="MPN" value="MCWR08X1503FTL"/>
 <attribute name="OC_FARNELL" value="2447573"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="U5" library="emitter" deviceset="TLC59108" device="">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="296-25340-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 <attribute name="MPN" value="TLC59108IPWR"/>
 <attribute name="OC_FARNELL" value="3119168"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="715">
 <spice>
@@ -10621,24 +10901,51 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="RMCF0805FT715RCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="PANASONIC"/>
 <attribute name="MPN" value="ERJ6ENF7150V"/>
 <attribute name="OC_FARNELL" value="2303536"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="emitter" deviceset="MIC2619" device="">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="576-3655-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="MICROCHIP"/>
 <attribute name="MPN" value="MIC2619YD6-TR"/>
 <attribute name="OC_FARNELL" value="2509963"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="L1" library="detector" deviceset="SRR6603" device="" value="SRR6603 10µH">
+<attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="SRR6603-100MLCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="BOURNS"/>
 <attribute name="MPN" value="SRR6603-100ML"/>
 <attribute name="OC_FARNELL" value="2333822"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF">
 <spice>
@@ -10647,10 +10954,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="08053C105JAT2A"/>
 <attribute name="OC_FARNELL" value="2332736"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k">
 <spice>
@@ -10659,10 +10975,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-100KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="PANASONIC"/>
 <attribute name="MPN" value="ERJT06J104V"/>
 <attribute name="OC_FARNELL" value="1618243"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF">
@@ -10672,10 +10997,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="399-4925-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="KEMET"/>
 <attribute name="MPN" value="C0805C106K8RACTU"/>
 <attribute name="OC_FARNELL" value="2118132"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="107k">
@@ -10685,10 +11019,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="541-107KCCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="CRCW0805107KFKEA"/>
 <attribute name="OC_FARNELL" value="2316483"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
 <spice>
@@ -10697,10 +11040,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22nF">
@@ -10710,10 +11062,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="732-8023-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="08055C223KAZ2A"/>
 <attribute name="OC_FARNELL" value="1740538"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="53,6k">
 <spice>
@@ -10722,10 +11083,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="P53.6KFCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="MULTICOMP PRO"/>
 <attribute name="MPN" value="MCWR08X5362FTL"/>
 <attribute name="OC_FARNELL" value="2447683"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
 <spice>
@@ -10734,10 +11104,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF">
 <spice>
@@ -10746,10 +11125,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="08053C105JAT2A"/>
 <attribute name="OC_FARNELL" value="2332736"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
 <spice>
@@ -10758,10 +11146,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47µF">
@@ -10771,10 +11168,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="399-9247-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="VJ0805Y474JXQTW1BC"/>
 <attribute name="OC_FARNELL" value="2896589"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF">
 <spice>
@@ -10783,10 +11189,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="08053C105JAT2A"/>
 <attribute name="OC_FARNELL" value="2332736"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47µF">
 <spice>
@@ -10795,10 +11210,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="399-9247-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="VJ0805Y474JXQTW1BC"/>
 <attribute name="OC_FARNELL" value="2896589"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF">
 <spice>
@@ -10807,34 +11231,79 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="08053C105JAT2A"/>
 <attribute name="OC_FARNELL" value="2332736"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P2" library="con-hirose-df13" deviceset="DF13-2P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2191-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427585"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P3" library="con-hirose-df13" deviceset="DF13-2P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2191-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427585"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P4" library="con-hirose-df13" deviceset="DF13-4P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2193-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427588"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="P1" library="con-hirose-df13" deviceset="DF13-2P-1.25" device="DSA">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="H2191-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="HIROSE(HRS)"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA"/>
 <attribute name="OC_FARNELL" value="2427585"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k">
 <spice>
@@ -10843,10 +11312,19 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="541-4.70KCCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="YAGEO"/>
 <attribute name="MPN" value="RE0805DR-074K7L"/>
 <attribute name="OC_FARNELL" value="1840620"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k">
 <spice>
@@ -10855,16 +11333,44 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="541-4.70KCCT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="YAGEO"/>
 <attribute name="MPN" value="RE0805DR-074K7L"/>
 <attribute name="OC_FARNELL" value="1840620"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="GF1" device="" package3d_urn="urn:adsk.eagle:package:43452/2">
+<attribute name="CLASS" value="DIODE"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="DIGIKEY" value="EGF1D-E3/67AGICT-ND"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="EGF1D-E3/67A"/>
 <attribute name="OC_FARNELL" value="1836975"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
 </part>
 </parts>
 <sheets>
@@ -10876,6 +11382,15 @@ Based on the following sources:
 <attribute name="OC_FARNELL" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="33.02" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="10.16" y="15.24" smashed="yes">
 <attribute name="VALUE" x="7.62" y="12.7" size="1.778" layer="96"/>
@@ -10887,6 +11402,15 @@ Based on the following sources:
 <attribute name="OC_FARNELL" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="33.02" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P7" gate="G$1" x="127" y="60.96" smashed="yes">
 <attribute name="NAME" x="125.095" y="66.04" size="1.778" layer="95"/>
@@ -10894,7 +11418,16 @@ Based on the following sources:
 <attribute name="OC_FARNELL" x="127" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="127" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="127" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="127" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P6" gate="G$1" x="127" y="40.64" smashed="yes">
 <attribute name="NAME" x="125.095" y="45.72" size="1.778" layer="95"/>
@@ -10903,22 +11436,63 @@ Based on the following sources:
 <attribute name="MF" x="127" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="127" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="127" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="127" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="-10.16" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="-11.6586" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-6.858" y="67.31" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_FARNELL" x="-10.16" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-10.16" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-10.16" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="-10.16" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R1" gate="G$1" x="-10.16" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="-11.6586" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-6.858" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="-10.16" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-10.16" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="-17.78" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="-19.2786" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-14.478" y="67.31" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_FARNELL" x="-17.78" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-17.78" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-17.78" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="-17.78" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R3" gate="G$1" x="-17.78" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="-19.2786" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-14.478" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="-17.78" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-17.78" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ1" gate="1" x="-17.78" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="-20.32" y="63.5" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-13.97" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-17.78" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-17.78" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ2" gate="1" x="-10.16" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.7" y="66.04" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-6.35" y="66.04" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="-10.16" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-10.16" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-10.16" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -10938,9 +11512,10 @@ Based on the following sources:
 <segment>
 <pinref part="RPI1" gate="G$1" pin="SDA"/>
 <label x="2.54" y="63.5" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="66.04" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="63.5" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+<junction x="-10.16" y="63.5"/>
 </segment>
 <segment>
 <pinref part="P7" gate="G$1" pin="3"/>
@@ -10957,9 +11532,9 @@ Based on the following sources:
 <segment>
 <pinref part="RPI1" gate="G$1" pin="SCL"/>
 <label x="2.54" y="60.96" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="66.04" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<junction x="-17.78" y="60.96"/>
 </segment>
 <segment>
 <pinref part="P7" gate="G$1" pin="2"/>
@@ -11080,8 +11655,8 @@ Based on the following sources:
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="76.2" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
-<label x="-15.24" y="76.2" size="1.778" layer="95"/>
+<wire x1="-17.78" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
+<label x="-15.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11229,6 +11804,22 @@ Based on the following sources:
 <label x="55.88" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="78.74" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="78.74" x2="-10.16" y2="68.6562" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<junction x="-10.16" y="78.74"/>
+<wire x1="-10.16" y1="78.74" x2="-10.16" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11242,16 +11833,43 @@ Based on the following sources:
 <attribute name="MF" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="71.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K2" gate="G$1" x="68.58" y="48.26" smashed="yes">
 <attribute name="NAME" x="60.96" y="54.61" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="60.96" y="40.64" size="1.778" layer="96" font="vector"/>
 <attribute name="DIGIKEY" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="68.58" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K3" gate="G$1" x="68.58" y="30.48" smashed="yes">
 <attribute name="NAME" x="60.96" y="36.83" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="60.96" y="22.86" size="1.778" layer="96" font="vector"/>
 <attribute name="DIGIKEY" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="68.58" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="43.18" y="50.8" smashed="yes">
 <attribute name="NAME" x="39.37" y="52.2986" size="1.778" layer="95"/>
@@ -11260,6 +11878,15 @@ Based on the following sources:
 <attribute name="MF" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="43.18" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="43.18" y="33.02" smashed="yes">
 <attribute name="NAME" x="39.37" y="34.5186" size="1.778" layer="95"/>
@@ -11268,11 +11895,29 @@ Based on the following sources:
 <attribute name="MF" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="43.18" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K1" gate="G$1" x="68.58" y="12.7" smashed="yes">
 <attribute name="NAME" x="60.96" y="19.05" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="60.96" y="5.08" size="1.778" layer="96" font="vector"/>
 <attribute name="DIGIKEY" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="68.58" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="43.18" y="15.24" smashed="yes">
 <attribute name="NAME" x="39.37" y="16.7386" size="1.778" layer="95"/>
@@ -11281,6 +11926,15 @@ Based on the following sources:
 <attribute name="MF" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P5" gate="G$1" x="137.16" y="43.18" smashed="yes">
 <attribute name="NAME" x="135.255" y="53.34" size="1.778" layer="95"/>
@@ -11289,6 +11943,15 @@ Based on the following sources:
 <attribute name="MF" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="137.16" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11463,6 +12126,15 @@ Based on the following sources:
 <attribute name="MF" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="7.62" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="10.16" y="15.24" smashed="yes">
 <attribute name="VALUE" x="7.62" y="12.7" size="1.778" layer="96"/>
@@ -11486,6 +12158,15 @@ Based on the following sources:
 <attribute name="MF" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="-25.4" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="-17.78" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-19.2786" y="59.69" size="1.778" layer="95" rot="R90"/>
@@ -11494,6 +12175,15 @@ Based on the following sources:
 <attribute name="MF" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="-17.78" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-17.78" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="-7.62" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.1186" y="24.13" size="1.778" layer="95" rot="R90"/>
@@ -11502,6 +12192,15 @@ Based on the following sources:
 <attribute name="MF" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="-7.62" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-7.62" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="27.94" y="83.82" smashed="yes">
 <attribute name="NAME" x="29.464" y="84.201" size="1.778" layer="95"/>
@@ -11510,6 +12209,15 @@ Based on the following sources:
 <attribute name="MF" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="27.94" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="-5.08" y="73.66" smashed="yes">
 <attribute name="NAME" x="-3.556" y="74.041" size="1.778" layer="95"/>
@@ -11518,6 +12226,15 @@ Based on the following sources:
 <attribute name="MF" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-5.08" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="17.78" y="83.82" smashed="yes">
 <attribute name="NAME" x="19.304" y="84.201" size="1.778" layer="95"/>
@@ -11526,6 +12243,15 @@ Based on the following sources:
 <attribute name="MF" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="17.78" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="38.1" y="25.4" smashed="yes">
 <attribute name="NAME" x="39.624" y="25.781" size="1.778" layer="95"/>
@@ -11534,6 +12260,15 @@ Based on the following sources:
 <attribute name="MF" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="38.1" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P2" gate="G$1" x="93.98" y="38.1" smashed="yes">
 <attribute name="NAME" x="92.075" y="40.64" size="1.778" layer="95"/>
@@ -11542,6 +12277,15 @@ Based on the following sources:
 <attribute name="MF" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="93.98" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P3" gate="G$1" x="93.98" y="27.94" smashed="yes">
 <attribute name="NAME" x="92.075" y="30.48" size="1.778" layer="95"/>
@@ -11550,6 +12294,15 @@ Based on the following sources:
 <attribute name="MF" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="93.98" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P4" gate="G$1" x="93.98" y="12.7" smashed="yes">
 <attribute name="NAME" x="92.075" y="17.78" size="1.778" layer="95"/>
@@ -11558,6 +12311,15 @@ Based on the following sources:
 <attribute name="MF" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="93.98" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11791,6 +12553,15 @@ Based on the following sources:
 <attribute name="MF" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="35.56" y="10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="17.78" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.2814" y="39.37" size="1.778" layer="95" rot="R90"/>
@@ -11799,6 +12570,15 @@ Based on the following sources:
 <attribute name="MF" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="17.78" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="17.78" y="53.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="20.32" y="55.88" size="1.778" layer="96" rot="R180"/>
@@ -11812,6 +12592,15 @@ Based on the following sources:
 <attribute name="MF" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="35.56" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="35.56" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="97.79" size="1.778" layer="95" rot="R180"/>
@@ -11820,6 +12609,15 @@ Based on the following sources:
 <attribute name="MF" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="35.56" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="35.56" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="0" y="78.74" smashed="yes">
 <attribute name="NAME" x="1.524" y="79.121" size="1.778" layer="95"/>
@@ -11828,6 +12626,15 @@ Based on the following sources:
 <attribute name="MF" x="0" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="0" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="0" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="0" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="15.24" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.7414" y="74.93" size="1.778" layer="95" rot="R90"/>
@@ -11836,6 +12643,15 @@ Based on the following sources:
 <attribute name="MF" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="15.24" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="15.24" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="0" y="68.58" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="66.04" size="1.778" layer="96"/>
@@ -11847,6 +12663,15 @@ Based on the following sources:
 <attribute name="MF" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="-7.62" y="68.58" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="66.04" size="1.778" layer="96"/>
@@ -11858,6 +12683,15 @@ Based on the following sources:
 <attribute name="MF" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="63.5" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="63.5" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="63.5" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.0014" y="59.69" size="1.778" layer="95" rot="R90"/>
@@ -11866,6 +12700,15 @@ Based on the following sources:
 <attribute name="MF" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="63.5" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="63.5" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="63.5" y="53.34" smashed="yes">
 <attribute name="VALUE" x="60.96" y="50.8" size="1.778" layer="96"/>
@@ -11877,6 +12720,15 @@ Based on the following sources:
 <attribute name="MF" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="83.82" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="74.93" size="1.778" layer="95" rot="R90"/>
@@ -11885,6 +12737,15 @@ Based on the following sources:
 <attribute name="MF" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="83.82" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="83.82" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="59.69" size="1.778" layer="95" rot="R90"/>
@@ -11893,6 +12754,15 @@ Based on the following sources:
 <attribute name="MF" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="83.82" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="93.98" y="81.28" smashed="yes">
 <attribute name="NAME" x="95.504" y="81.661" size="1.778" layer="95"/>
@@ -11901,6 +12771,15 @@ Based on the following sources:
 <attribute name="MF" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="93.98" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="68.58" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.0814" y="21.59" size="1.778" layer="95" rot="R90"/>
@@ -11909,6 +12788,15 @@ Based on the following sources:
 <attribute name="MF" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="68.58" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="22.86" y="68.58" smashed="yes">
 <attribute name="VALUE" x="20.32" y="66.04" size="1.778" layer="96"/>
@@ -11920,6 +12808,15 @@ Based on the following sources:
 <attribute name="MF" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="D" x="55.88" y="86.36" smashed="yes">
 <attribute name="NAME" x="53.34" y="88.9" size="1.778" layer="95"/>
@@ -11928,6 +12825,15 @@ Based on the following sources:
 <attribute name="MF" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="55.88" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

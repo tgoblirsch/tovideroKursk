@@ -3,11 +3,11 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -163,6 +163,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6dW5pbGVpcHppZzE" projecturn="a.YnVzaW5lc3M6dW5pbGVpcHppZzEjMjAyMDA2MjMzMTAxNDc2MzE" f3durn="urn:adsk.wipprod:dm.lineage:Rl62OG9cQSOl626Np58HCQ" pcbguid="8187e407-1a7a-4ca8-91a0-ef5a08e0b105" lastpulledtime="" lastsyncedchangeguid="344f01e6-a818-42a2-1d29-45d5ce9c277d"/>
 <plain>
 <wire x1="0" y1="36.449" x2="3.683" y2="36.449" width="0" layer="20"/>
 <wire x1="3.683" y1="19.558" x2="0" y2="19.558" width="0" layer="20"/>
@@ -196,7 +197,7 @@
 <text x="57.15" y="27.6225" size="1.016" layer="26">U2</text>
 <text x="12.065" y="3.4925" size="0.8128" layer="26">P7</text>
 <text x="19.685" y="3.4925" size="0.8128" layer="26">P6</text>
-<text x="25.7175" y="3.4925" size="0.8128" layer="26">P2</text>
+<text x="25.7175" y="3.4925" size="0.8128" layer="25">P2</text>
 <text x="30.7975" y="3.4925" size="0.8128" layer="26">P3</text>
 <text x="38.4175" y="3.4925" size="0.8128" layer="26">P4</text>
 <text x="43.815" y="3.4925" size="0.8128" layer="26">P1</text>
@@ -1495,8 +1496,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="17.5" y1="64" x2="42" y2="64" width="0.127" layer="21"/>
 <wire x1="42" y1="64" x2="42" y2="0" width="0.127" layer="21"/>
 <wire x1="42" y1="0" x2="11" y2="0" width="0.127" layer="21"/>
-<hole x="2.5" y="12" drill="2.7"/>
-<hole x="39.5" y="12" drill="2.7"/>
+<hole x="2.5" y="12" drill="3.5"/>
+<hole x="39.5" y="12" drill="3.5"/>
 <text x="1" y="60" size="2.54" layer="25">QMINI</text>
 <wire x1="11" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
 <wire x1="2" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
@@ -1728,6 +1729,40 @@ Based on the following sources:
 </package3d>
 </packages3d>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 <attribute name="REV" value="A"/>
@@ -1923,334 +1958,719 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="RPI1" library="microbuilder" package="PI_HAT_NOSLOTS" value="RASPBERRYPI_BPLUS_HATNOSLOTS" x="0" y="0" smashed="yes">
+<attribute name="CLASS" value="RESISTOR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="P7" library="con-hirose-df13" package="DF13-4P-1.25DSA" value="DF13-4P-1.25DSA" x="10.795" y="2.8575" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="H2193-ND" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="H2193-ND" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427588" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="10.795" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="P6" library="con-hirose-df13" package="DF13-4P-1.25DSA" value="DF13-4P-1.25DSA" x="18.415" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2193-ND" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427588" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="18.415" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="Peripherie" package="QMINI" value="QMINI" x="-8.5" y="49" smashed="yes" rot="R270">
+<attribute name="CLASS" value="IC" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="-8.5" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="dcdc" package="TMR6-0512" value="TMR6-0512" x="60.75" y="18" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="1951-2391-ND" x="60.75" y="18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TRACOPOWER" x="60.75" y="18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TMR 6-0512" x="60.75" y="18" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="2280181" x="60.75" y="18" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U2" library="dcdc" package="TMR6-0512" value="TMR6-0512" x="61.385" y="18" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="IC" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1951-2391-ND" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="TRACOPOWER" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="TMR 6-0512" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_FARNELL" value="2280181" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="61.385" y="18" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" package="SOP04" package3d_urn="urn:adsk.eagle:package:24376/1" value="G3VM-61VR" x="50.8" y="14.605" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="RELAY" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="OMRON" x="59.55" y="17.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)" x="59.55" y="17.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="53.0225" y="12.3825" size="1.016" layer="26" rot="MR90"/>
 <attribute name="OC_FARNELL" value="2889501" x="59.55" y="17.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="59.55" y="17.605" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="50.8" y="14.605" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" package="SOP04" package3d_urn="urn:adsk.eagle:package:24376/1" value="G3VM-61VR" x="50.8" y="34.29" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="RELAY" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="OMRON" x="50.8" y="40.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)" x="50.8" y="40.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="53.0225" y="32.0675" size="1.016" layer="26" rot="MR90"/>
 <attribute name="OC_FARNELL" value="2889501" x="50.8" y="40.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.8" y="40.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="50.8" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270" x="44.7675" y="21.59" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="RESISTOR" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="P270CCT-ND" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="PANASONIC" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERA6AEB271V" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="42.8625" y="22.5425" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="1577650" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POPULARITY" value="86" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="44.7675" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="35.7675" y="27.09" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270" x="44.7675" y="27.305" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="RESISTOR" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="P270CCT-ND" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="PANASONIC" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERA6AEB271V" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="42.8625" y="28.2575" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="1577650" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POPULARITY" value="86" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="44.7675" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="30.7675" y="39.055" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" package="SOP04" package3d_urn="urn:adsk.eagle:package:24376/1" value="G3VM-61VR" x="50.8" y="24.765" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="RELAY" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="Z10319CT-ND" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="OMRON" x="50.8" y="-1.735" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="G3VM-61VR(TR05)" x="50.8" y="-1.735" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="53.0225" y="22.5425" size="1.016" layer="26" rot="MR90"/>
 <attribute name="OC_FARNELL" value="2889501" x="50.8" y="-1.735" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.8" y="-1.735" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="50.8" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270" x="44.7675" y="24.4475" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="RESISTOR" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="P270CCT-ND" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="PANASONIC" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERA6AEB271V" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="42.8625" y="25.4" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="1577650" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POPULARITY" value="86" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="44.7675" y="24.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="44.7675" y="39.4475" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="P5" library="con-hirose-df13" package="DF13-7P-1.25DSA" value="DF13-7P-1.25DSA" x="52.3875" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2196-ND" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13A-7P-1.25H(21)" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="3019730" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="52.3875" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="LP55231" package="WQFN-24" value="LP55231WQFN" x="22.5425" y="30.1625" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="IC" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="296-40354-1-ND" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="LP55231SQE/NOPB" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="21.5265" y="29.6545" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="OC_FARNELL" value="3006014" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PROD_ID" value="IC-13302" x="12.7" y="30.1625" size="1.016" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="22.5425" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="21.5265" y="30.9245" size="0.4064" layer="28" rot="MR180"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="18.0975" y="36.195" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="RESISTOR" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="19.05" y="38.1" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="unknown" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="86" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="18.0975" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="8.5725" y="36.195" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="15.5575" y="36.195" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="RESISTOR" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="16.51" y="38.1" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="86" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="15.5575" y="36.195" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="0.9525" y="30.7975" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150k" x="23.8125" y="36.195" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="RESISTOR" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="P150KCCT-ND" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="MULTICOMP PRO" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="MCWR08X1503FTL" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="24.765" y="38.1" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2447573" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="86" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="23.8125" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="43.4975" y="46.99" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U5" library="emitter" package="TSSOP20" value="TLC59108" x="33.3375" y="34.29" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="IC" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="296-25340-1-ND" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="TLC59108IPWR" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="34.925" y="33.02" size="1.27" layer="26" rot="MR90"/>
 <attribute name="OC_FARNELL" value="3119168" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.3375" y="34.29" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="715" x="38.735" y="30.48" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="RESISTOR" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="RMCF0805FT715RCT-ND" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="PANASONIC" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ6ENF7150V" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="39.6875" y="32.385" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2303536" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="86" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="38.735" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="53.0225" y="35.8775" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U4" library="emitter" package="SOT-23-6" value="MIC2619" x="33.3375" y="16.51" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="IC" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="576-3655-1-ND" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="MICROCHIP" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MIC2619YD6-TR" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.2613" y="16.5894" size="0.762" layer="26" font="vector" ratio="10" rot="MR270" align="center"/>
 <attribute name="OC_FARNELL" value="2509963" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.3375" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="L1" library="detector" package="SRR6603" value="SRR6603 10µH" x="33.655" y="21.2725" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="INDUCTOR" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="SRR6603-100MLCT-ND" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="BOURNS" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="SRR6603-100ML" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.855" y="23.355" size="0.8128" layer="26" rot="MR0"/>
+<attribute name="NAME" x="34.315" y="20.815" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2333822" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.655" y="21.2725" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF" x="28.2575" y="13.6525" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="AVX" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="08053C105JAT2A" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="29.21" y="15.5575" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2332736" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="28.2575" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="53.6575" y="22.225" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k" x="28.2575" y="18.7325" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="RESISTOR" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="311-100KCRCT-ND" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="PANASONIC" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJT06J104V" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="29.21" y="20.6375" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="1618243" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="86" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="28.2575" y="18.7325" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="72.7075" y="28.575" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="25.4" y="13.6525" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="399-4925-1-ND" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="KEMET" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="C0805C106K8RACTU" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="26.3525" y="15.5575" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2118132" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="25.4" y="13.6525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="76.2" y="17.78" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="107k" x="42.2275" y="12.3825" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="RESISTOR" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="541-107KCCT-ND" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="VISHAY" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CRCW0805107KFKEA" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="44.1325" y="13.335" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2316483" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POPULARITY" value="86" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="42.2275" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="26.3525" y="69.5325" size="1.016" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="34.29" y="12.3825" smashed="yes" rot="MR180">
+<attribute name="CLASS" value="RESISTOR" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="36.195" y="13.335" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="unknown" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POPULARITY" value="86" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="34.29" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="19.685" y="69.5325" size="1.016" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22nF" x="47.3075" y="17.4625" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="CAPACITOR" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="732-8023-1-ND" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="AVX" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="08055C223KAZ2A" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="48.26" y="19.3675" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="1740538" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="88" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="47.3075" y="17.4625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-32.385" y="0.9525" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="53,6k" x="45.085" y="17.4625" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="RESISTOR" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="P53.6KFCT-ND" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="MULTICOMP PRO" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="MCWR08X5362FTL" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="44.1325" y="19.3675" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="2447683" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="86" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="45.085" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="131.1275" y="41.91" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="41.91" y="17.4625" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="RESISTOR" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="40.9575" y="19.3675" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="unknown" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="86" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="41.91" y="17.4625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="118.11" y="37.465" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF" x="42.2275" y="7.9375" smashed="yes" rot="MR0">
+<attribute name="CLASS" value="CAPACITOR" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="AVX" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="08053C105JAT2A" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="44.1325" y="8.89" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2332736" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="88" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="42.2275" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="46.0375" y="-68.2625" size="1.016" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="38.735" y="37.7825" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="RESISTOR" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="39.6875" y="39.6875" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="unknown" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="86" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="38.735" y="37.7825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-54.2925" y="12.3825" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47µF" x="15.5575" y="27.305" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="399-9247-1-ND" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="VISHAY" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="VJ0805Y474JXQTW1BC" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="16.51" y="29.21" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2896589" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="15.5575" y="27.305" size="1.016" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="15.5575" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="15.5575" y="27.305" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF" x="13.0175" y="36.195" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="AVX" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="08053C105JAT2A" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="13.97" y="38.1" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2332736" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="13.0175" y="36.195" size="1.016" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="13.0175" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="13.0175" y="36.195" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47µF" x="13.0175" y="27.305" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="399-9247-1-ND" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="VISHAY" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="VJ0805Y474JXQTW1BC" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="13.97" y="29.21" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="2896589" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="13.0175" y="27.305" size="1.016" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="13.0175" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="13.0175" y="27.305" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF" x="23.1775" y="23.1775" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="CAPACITOR" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="311-1458-1-ND" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="AVX" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="08053C105JAT2A" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="21.9075" y="24.4475" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="2332736" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="88" x="23.1775" y="23.1775" size="1.016" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="23.1775" y="23.1775" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="23.1775" y="23.1775" size="1.016" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="P2" library="con-hirose-df13" package="DF13-2P-1.25DSA" value="DF13-2P-1.25DSA" x="25.7175" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2191-ND" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427585" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="25.7175" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="P3" library="con-hirose-df13" package="DF13-2P-1.25DSA" value="DF13-2P-1.25DSA" x="30.7975" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2191-ND" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427585" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="30.7975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="P4" library="con-hirose-df13" package="DF13-4P-1.25DSA" value="DF13-4P-1.25DSA" x="37.1475" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2193-ND" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-4P-1.25DSA" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427588" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="37.1475" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="P1" library="con-hirose-df13" package="DF13-2P-1.25DSA" value="DF13-2P-1.25DSA" x="43.4975" y="2.8575" smashed="yes" rot="R180">
+<attribute name="CLASS" value="UNKNOWN CLASS" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY" value="H2191-ND" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="HIROSE(HRS)" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="DF13-2P-1.25DSA" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2427585" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="43.4975" y="2.8575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k" x="14.2875" y="18.415" smashed="yes" rot="MR90">
-<attribute name="DIGIKEY" value="541-4.70KCCT-ND" x="14.2875" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="YAGEO" x="14.2875" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RE0805DR-074K7L" x="14.2875" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="15.24" y="20.32" size="1.016" layer="26" rot="MR0"/>
-<attribute name="OC_FARNELL" value="1840620" x="14.2875" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="POPULARITY" value="86" x="14.2875" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="14.2875" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k" x="13.6525" y="18.415" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="RESISTOR" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="541-4.70KCCT-ND" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="YAGEO" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RE0805DR-074K7L" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="14.605" y="20.32" size="1.016" layer="26" rot="MR0"/>
+<attribute name="OC_FARNELL" value="1840620" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="86" x="13.6525" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="13.6525" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="13.6525" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k" x="18.0975" y="18.415" smashed="yes" rot="MR90">
+<attribute name="CLASS" value="RESISTOR" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="541-4.70KCCT-ND" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="YAGEO" x="16.8275" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="RE0805DR-074K7L" x="16.8275" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="19.05" y="20.32" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OC_FARNELL" value="1840620" x="16.8275" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULARITY" value="86" x="16.8275" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="18.0975" y="18.415" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="16.8275" y="18.415" size="1.016" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMA-DO214AC" package3d_urn="urn:adsk.eagle:package:43452/2" value="GF1" x="38.735" y="15.5575" smashed="yes" rot="MR270">
+<attribute name="CLASS" value="DIODE" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY" value="EGF1D-E3/67AGICT-ND" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="VISHAY" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="EGF1D-E3/67A" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="38.1" y="16.51" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OC_FARNELL" value="1836975" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="2" x="38.735" y="15.5575" size="1.016" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="38.735" y="15.5575" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="18.415" y="13.97" smashed="yes" rot="MR90">
+<attribute name="MF" value="" x="18.415" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="18.415" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="19.558" y="12.319" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="18.415" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="33" x="18.415" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="18.415" y="14.3701" size="0.02" layer="28" rot="MR90"/>
+</element>
+<element name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="13.335" y="13.97" smashed="yes" rot="MR90">
+<attribute name="MF" value="" x="13.335" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="13.335" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="14.478" y="12.319" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="13.335" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="33" x="13.335" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="13.335" y="14.3701" size="0.02" layer="28" rot="MR90"/>
 </element>
 </elements>
 <signals>
@@ -2263,7 +2683,7 @@ design rules under a new name.</description>
 <wire x1="14.75" y1="52" x2="14.75" y2="44.8625" width="0.254" layer="16"/>
 <wire x1="14.25" y1="52.5" x2="11.5" y2="52.5" width="0.254" layer="16"/>
 <contactref element="U2" pad="2"/>
-<wire x1="60.75" y1="11.54" x2="57.675" y2="11.54" width="0.254" layer="16"/>
+<wire x1="61.385" y1="11.54" x2="57.675" y2="11.54" width="0.254" layer="1"/>
 <wire x1="55.245" y1="13.97" x2="55.245" y2="41.275" width="0.254" layer="16"/>
 <via x="55.245" y="41.275" extent="1-16" drill="0.3937"/>
 <wire x1="55.245" y1="41.275" x2="54.9275" y2="41.5925" width="0.254" layer="1"/>
@@ -2273,6 +2693,7 @@ design rules under a new name.</description>
 <wire x1="14.75" y1="43.5925" x2="14.75" y2="44.8625" width="0.254" layer="1"/>
 <via x="14.75" y="44.8625" extent="1-16" drill="0.3937"/>
 <wire x1="8.37" y1="53.77" x2="10.91" y2="53.77" width="0.254" layer="16"/>
+<via x="57.675" y="11.54" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="SDA">
 <contactref element="RPI1" pad="3"/>
@@ -2280,7 +2701,6 @@ design rules under a new name.</description>
 <contactref element="U5" pad="19"/>
 <contactref element="P7" pad="P$3"/>
 <contactref element="P6" pad="P$3"/>
-<contactref element="R1" pad="1"/>
 <wire x1="10.91" y1="51.23" x2="10.91" y2="42.7475" width="0.254" layer="16"/>
 <wire x1="14.605" y1="39.0525" x2="19.3675" y2="39.0525" width="0.254" layer="16"/>
 <wire x1="19.3675" y1="39.0525" x2="21.7925" y2="36.6275" width="0.254" layer="16"/>
@@ -2289,10 +2709,11 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="40.9575" x2="13.97" y2="39.6875" width="0.254" layer="16"/>
 <wire x1="13.97" y1="39.6875" x2="14.605" y2="39.0525" width="0.254" layer="16"/>
 <wire x1="11.42" y1="2.8575" x2="11.42" y2="11.43" width="0.254" layer="16"/>
-<wire x1="10.4675" y1="18.0975" x2="10.4675" y2="38.725" width="0.254" layer="16"/>
+<wire x1="10.4675" y1="11.7575" x2="10.4675" y2="38.725" width="0.254" layer="16"/>
 <wire x1="10.4675" y1="38.725" x2="12.7" y2="40.9575" width="0.254" layer="16"/>
 <wire x1="19.04" y1="2.8575" x2="19.04" y2="10.805" width="0.254" layer="16"/>
-<wire x1="18.415" y1="11.43" x2="11.42" y2="11.43" width="0.254" layer="16"/>
+<wire x1="18.415" y1="11.43" x2="13.335" y2="11.43" width="0.254" layer="16"/>
+<wire x1="13.335" y1="11.43" x2="11.42" y2="11.43" width="0.254" layer="16"/>
 <wire x1="19.04" y1="10.805" x2="18.415" y2="11.43" width="0.254" layer="16"/>
 <wire x1="35.6125" y1="37.09" x2="35.6125" y2="39.3175" width="0.254" layer="16"/>
 <wire x1="34.19475" y1="40.73525" x2="16.1925" y2="40.73525" width="0.254" layer="16"/>
@@ -2301,11 +2722,10 @@ design rules under a new name.</description>
 <wire x1="15.14475" y1="39.6875" x2="13.97" y2="39.6875" width="0.254" layer="1"/>
 <via x="13.97" y="39.6875" extent="1-16" drill="0.3937"/>
 <wire x1="35.6125" y1="39.3175" x2="34.19475" y2="40.73525" width="0.254" layer="16"/>
-<wire x1="14.2875" y1="17.465" x2="11.1" y2="17.465" width="0.254" layer="16"/>
-<wire x1="11.1" y1="17.465" x2="10.4675" y2="18.0975" width="0.254" layer="16"/>
 <wire x1="10.4675" y1="11.7575" x2="10.795" y2="11.43" width="0.254" layer="16"/>
 <wire x1="10.795" y1="11.43" x2="11.42" y2="11.43" width="0.254" layer="16"/>
-<wire x1="10.4675" y1="18.0975" x2="10.4675" y2="11.7575" width="0.254" layer="16"/>
+<contactref element="SJ2" pad="1"/>
+<wire x1="13.335" y1="13.208" x2="13.335" y2="11.43" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="RPI1" pad="5"/>
@@ -2313,7 +2733,6 @@ design rules under a new name.</description>
 <contactref element="U5" pad="18"/>
 <contactref element="P7" pad="P$2"/>
 <contactref element="P6" pad="P$2"/>
-<contactref element="R3" pad="1"/>
 <wire x1="22.2925" y1="32.1625" x2="22.2925" y2="37.08" width="0.254" layer="16"/>
 <wire x1="15.875" y1="40.005" x2="19.3675" y2="40.005" width="0.254" layer="16"/>
 <wire x1="15.875" y1="40.005" x2="13.45" y2="42.43" width="0.254" layer="16"/>
@@ -2328,18 +2747,19 @@ design rules under a new name.</description>
 <wire x1="12.2675" y1="42.43" x2="10.4775" y2="40.64" width="0.254" layer="1"/>
 <via x="13.45" y="42.43" extent="1-16" drill="0.3937"/>
 <wire x1="17.79" y1="2.8575" x2="17.79" y2="8.245" width="0.254" layer="1"/>
-<wire x1="17.79" y1="8.245" x2="16.35125" y2="9.68375" width="0.254" layer="1"/>
-<wire x1="16.35125" y1="9.68375" x2="16.1925" y2="9.8425" width="0.254" layer="1"/>
+<wire x1="16.1925" y1="9.8425" x2="17.79" y2="8.245" width="0.254" layer="1"/>
 <wire x1="16.1925" y1="9.8425" x2="10.17" y2="9.8425" width="0.254" layer="1"/>
 <via x="10.17" y="9.8425" extent="1-16" drill="0.3937"/>
 <wire x1="19.3675" y1="40.005" x2="33.9725" y2="40.005" width="0.254" layer="16"/>
 <wire x1="34.9625" y1="39.015" x2="34.9625" y2="37.09" width="0.254" layer="16"/>
 <wire x1="33.9725" y1="40.005" x2="34.9625" y2="39.015" width="0.254" layer="16"/>
-<wire x1="18.0975" y1="17.465" x2="18.0975" y2="14.605" width="0.254" layer="16"/>
-<wire x1="18.0975" y1="14.605" x2="16.8275" y2="13.335" width="0.254" layer="16"/>
-<via x="16.8275" y="13.335" extent="1-16" drill="0.3937"/>
-<wire x1="16.8275" y1="13.335" x2="16.8275" y2="10.16" width="0.254" layer="1"/>
-<wire x1="16.8275" y1="10.16" x2="16.35125" y2="9.68375" width="0.254" layer="1"/>
+<contactref element="SJ1" pad="1"/>
+<wire x1="17.79" y1="8.245" x2="20.31" y2="8.245" width="0.254" layer="1"/>
+<wire x1="20.31" y1="8.245" x2="20.32" y2="8.255" width="0.254" layer="1"/>
+<via x="20.32" y="8.255" extent="1-16" drill="0.35"/>
+<wire x1="20.32" y1="8.255" x2="20.32" y2="11.43" width="0.254" layer="16"/>
+<wire x1="20.32" y1="11.43" x2="18.542" y2="13.208" width="0.254" layer="16"/>
+<wire x1="18.542" y1="13.208" x2="18.415" y2="13.208" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO4">
 <contactref element="RPI1" pad="7"/>
@@ -2422,8 +2842,8 @@ design rules under a new name.</description>
 <wire x1="9.525" y1="0.635" x2="15.875" y2="0.635" width="0.254" layer="1"/>
 <wire x1="15.875" y1="0.635" x2="16.54" y2="1.3" width="0.254" layer="1"/>
 <wire x1="16.54" y1="1.3" x2="16.54" y2="2.8575" width="0.254" layer="1"/>
-<wire x1="8.92" y1="2.8575" x2="8.92" y2="21.2725" width="0.254" layer="1"/>
-<wire x1="8.92" y1="21.2725" x2="8.92" y2="31.4325" width="0.254" layer="1"/>
+<wire x1="8.92" y1="2.8575" x2="8.92" y2="22.5425" width="0.254" layer="1"/>
+<wire x1="8.92" y1="22.5425" x2="8.92" y2="31.4325" width="0.254" layer="1"/>
 <wire x1="8.92" y1="31.4325" x2="8.92" y2="50.68" width="0.254" layer="1"/>
 <wire x1="8.92" y1="50.68" x2="8.37" y2="51.23" width="0.254" layer="1"/>
 <wire x1="31.9875" y1="17.46" x2="29.845" y2="17.46" width="0.254" layer="16"/>
@@ -2435,10 +2855,10 @@ design rules under a new name.</description>
 <wire x1="28.69" y1="51.23" x2="28.69" y2="45.085" width="0.254" layer="1"/>
 <wire x1="38.735" y1="38.7325" x2="37.4625" y2="40.005" width="0.254" layer="16"/>
 <wire x1="37.4625" y1="40.005" x2="36.2625" y2="40.005" width="0.254" layer="16"/>
-<wire x1="8.92" y1="21.2725" x2="14.2875" y2="21.2725" width="0.254" layer="1"/>
-<via x="14.2875" y="21.2725" extent="1-16" drill="0.3937"/>
-<wire x1="14.2875" y1="21.2725" x2="14.2875" y2="19.365" width="0.254" layer="16"/>
-<wire x1="14.2875" y1="19.365" x2="18.0975" y2="19.365" width="0.254" layer="16"/>
+<wire x1="8.92" y1="22.5425" x2="13.6525" y2="22.5425" width="0.254" layer="1"/>
+<via x="13.6525" y="22.5425" extent="1-16" drill="0.3937"/>
+<wire x1="13.6525" y1="22.5425" x2="13.6525" y2="19.365" width="0.254" layer="16"/>
+<wire x1="18.0975" y1="19.365" x2="13.6525" y2="19.365" width="0.254" layer="16"/>
 <via x="12.7" y="31.4325" extent="1-16" drill="0.3937"/>
 <wire x1="20.5425" y1="29.9125" x2="18.67658125" y2="29.9125" width="0.254" layer="16"/>
 <wire x1="18.67658125" y1="29.9125" x2="17.96938125" y2="30.6197" width="0.254" layer="16"/>
@@ -2544,7 +2964,6 @@ design rules under a new name.</description>
 <via x="1.5875" y="18.0975" extent="1-16" drill="0.55"/>
 <via x="1.5875" y="15.875" extent="1-16" drill="0.55"/>
 <via x="1.5875" y="13.6525" extent="1-16" drill="0.55"/>
-<via x="1.5875" y="11.7475" extent="1-16" drill="0.55"/>
 <via x="62.865" y="47.9425" extent="1-16" drill="0.55"/>
 <via x="62.865" y="45.72" extent="1-16" drill="0.55"/>
 <via x="62.865" y="43.4975" extent="1-16" drill="0.55"/>
@@ -2564,11 +2983,75 @@ design rules under a new name.</description>
 <via x="4.445" y="18.0975" extent="1-16" drill="0.55"/>
 <via x="4.445" y="15.875" extent="1-16" drill="0.55"/>
 <via x="4.445" y="13.6525" extent="1-16" drill="0.55"/>
-<via x="4.445" y="11.7475" extent="1-16" drill="0.55"/>
 <via x="6.985" y="18.0975" extent="1-16" drill="0.55"/>
 <via x="6.985" y="15.875" extent="1-16" drill="0.55"/>
 <via x="6.985" y="13.6525" extent="1-16" drill="0.55"/>
-<via x="6.985" y="11.7475" extent="1-16" drill="0.55"/>
+<wire x1="62.865" y1="47.9425" x2="56.63" y2="51.23" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="45.72" x2="62.865" y2="47.9425" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="43.4975" x2="62.865" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="41.275" x2="62.865" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="39.0525" x2="62.865" y2="41.275" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="36.83" x2="62.865" y2="39.0525" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="34.6075" x2="62.865" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="32.385" x2="62.865" y2="34.6075" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="30.1625" x2="62.865" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="61.385" y1="24.24" x2="62.865" y2="30.1625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.01" y1="53.77" x2="56.63" y2="51.23" width="0" layer="19" extent="1-1"/>
+<wire x1="43.93" y1="53.77" x2="49.01" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="38.85" y1="51.23" x2="43.93" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="31.23" y1="53.77" x2="38.85" y2="51.23" width="0" layer="19" extent="1-1"/>
+<wire x1="23.61" y1="53.77" x2="31.23" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="18.53" y1="51.23" x2="23.61" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45" y1="53.77" x2="18.53" y2="51.23" width="0" layer="19" extent="1-1"/>
+<wire x1="12.065" y1="46.99" x2="13.45" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3025" y1="43.4975" x2="12.065" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3025" y1="41.275" x2="7.3025" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3025" y1="39.0525" x2="7.3025" y2="41.275" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="43.4975" x2="7.3025" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="41.275" x2="4.445" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="39.0525" x2="4.445" y2="41.275" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="43.4975" x2="4.445" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="41.275" x2="1.5875" y2="43.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="39.0525" x2="1.5875" y2="41.275" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0175" y1="35.245" x2="7.3025" y2="39.0525" width="0" layer="19" extent="16-16"/>
+<wire x1="20.5425" y1="31.4125" x2="13.0175" y2="35.245" width="0" layer="19" extent="16-16"/>
+<wire x1="23.2925" y1="28.1625" x2="22.7925" y2="28.1625" width="0" layer="19" extent="16-16"/>
+<wire x1="23.1775" y1="22.2275" x2="23.2925" y2="28.1625" width="0" layer="19" extent="16-16"/>
+<wire x1="28.2575" y1="19.6825" x2="23.1775" y2="22.2275" width="0" layer="19" extent="16-16"/>
+<wire x1="30.6705" y1="16.51" x2="28.2575" y2="19.6825" width="0" layer="19" extent="16-16"/>
+<wire x1="34.6875" y1="16.51" x2="30.6705" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="33.34" y1="12.3825" x2="34.6875" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="28.2575" y1="12.7025" x2="30.6705" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="25.4" y1="12.7025" x2="28.2575" y2="12.7025" width="0" layer="19" extent="16-16"/>
+<wire x1="23.8125" y1="37.145" x2="20.5425" y2="31.4125" width="0" layer="19" extent="16-16"/>
+<wire x1="41.91" y1="18.4125" x2="34.6875" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="49.53" y1="21.765" x2="41.91" y2="18.4125" width="0" layer="19" extent="16-16"/>
+<wire x1="41.2775" y1="7.9375" x2="33.34" y2="12.3825" width="0" layer="19" extent="16-16"/>
+<wire x1="35.2725" y1="2.8575" x2="41.2775" y2="7.9375" width="0" layer="19" extent="16-16"/>
+<wire x1="30.1725" y1="2.8575" x2="35.2725" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="25.0925" y1="2.8575" x2="30.1725" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="20.29" y1="2.8575" x2="25.0925" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="12.67" y1="2.8575" x2="20.29" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="11.605" x2="41.2775" y2="7.9375" width="0" layer="19" extent="16-16"/>
+<wire x1="49.8875" y1="2.8575" x2="49.53" y2="11.605" width="0" layer="19" extent="16-16"/>
+<wire x1="56.1375" y1="2.8575" x2="49.8875" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="61.385" y1="9" x2="56.1375" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="31.29" x2="49.53" y2="21.765" width="0" layer="19" extent="16-16"/>
+<wire x1="33.6625" y1="37.09" x2="23.8125" y2="37.145" width="0" layer="19" extent="16-16"/>
+<wire x1="33.6625" y1="31.49" x2="33.6625" y2="37.09" width="0" layer="19" extent="16-16"/>
+<wire x1="34.3125" y1="31.49" x2="33.6625" y2="31.49" width="0" layer="19" extent="16-16"/>
+<wire x1="34.9625" y1="31.49" x2="34.3125" y2="31.49" width="0" layer="19" extent="16-16"/>
+<wire x1="35.6125" y1="31.49" x2="34.9625" y2="31.49" width="0" layer="19" extent="16-16"/>
+<wire x1="38.735" y1="29.53" x2="35.6125" y2="31.49" width="0" layer="19" extent="16-16"/>
+<wire x1="6.985" y1="13.6525" x2="12.67" y2="2.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="6.985" y1="15.875" x2="6.985" y2="13.6525" width="0" layer="19" extent="1-1"/>
+<wire x1="6.985" y1="18.0975" x2="6.985" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="18.0975" x2="6.985" y2="18.0975" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="15.875" x2="4.445" y2="18.0975" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="13.6525" x2="4.445" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="18.0975" x2="4.445" y2="18.0975" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="15.875" x2="1.5875" y2="18.0975" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5875" y1="13.6525" x2="1.5875" y2="15.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TXD">
 <contactref element="RPI1" pad="8"/>
@@ -2615,13 +3098,14 @@ design rules under a new name.</description>
 <signal name="12V">
 <contactref element="U2" pad="6"/>
 <contactref element="P5" pad="P$1"/>
-<wire x1="58.42" y1="21.7" x2="60.75" y2="21.7" width="0.254" layer="1"/>
+<wire x1="58.42" y1="21.7" x2="61.385" y2="21.7" width="0.254" layer="16"/>
 <wire x1="48.6375" y1="2.8575" x2="48.6375" y2="1.21" width="0.254" layer="1"/>
 <wire x1="48.6375" y1="1.21" x2="48.895" y2="0.9525" width="0.254" layer="1"/>
 <wire x1="57.15" y1="0.9525" x2="57.4675" y2="1.27" width="0.254" layer="1"/>
 <wire x1="57.4675" y1="20.7475" x2="58.42" y2="21.7" width="0.254" layer="1"/>
 <wire x1="48.895" y1="0.9525" x2="57.15" y2="0.9525" width="0.254" layer="1"/>
 <wire x1="57.4675" y1="1.27" x2="57.4675" y2="20.7475" width="0.254" layer="1"/>
+<via x="58.42" y="21.7" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
@@ -2908,6 +3392,19 @@ design rules under a new name.</description>
 <wire x1="34.3125" y1="34.9025" x2="34.3125" y2="37.09" width="0.254" layer="16"/>
 <wire x1="34.925" y1="34.29" x2="34.3125" y2="34.9025" width="0.254" layer="16"/>
 </signal>
+<signal name="N$1">
+<contactref element="R3" pad="1"/>
+<contactref element="SJ1" pad="2"/>
+<wire x1="18.0975" y1="17.465" x2="18.415" y2="17.1475" width="0.254" layer="16"/>
+<wire x1="18.415" y1="17.1475" x2="18.415" y2="14.732" width="0.254" layer="16"/>
+<via x="18.415" y="17.1475" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$7">
+<contactref element="R1" pad="1"/>
+<contactref element="SJ2" pad="2"/>
+<wire x1="13.335" y1="14.732" x2="13.335" y2="17.1475" width="0.254" layer="16"/>
+<wire x1="13.335" y1="17.1475" x2="13.6525" y2="17.465" width="0.254" layer="16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -2930,6 +3427,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
